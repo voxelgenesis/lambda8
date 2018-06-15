@@ -30,4 +30,5 @@ public class Testing {
 	public void ch3_1c() {
 		System.out.println(SampleData.albums.filter(album -> album.getTrackList().size() < 4).collect(Collectors.toList()));
 	}
+	
 }
